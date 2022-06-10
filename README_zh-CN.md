@@ -1,6 +1,6 @@
 [English](./README.md) | 简体中文
 
-# [WIP] SoliDoc
+# [WIP] SoliDocs
 
 ## 描述
 
