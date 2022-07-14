@@ -1,0 +1,32 @@
+{
+  "name": "@solidocs/create",
+  "version": "1.0.0",
+  "description": "SSG(Static Site Generator) powered by SolidJS.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "create-solidocs": "./dist/index.cjs"
+  },
+  "scripts": {
+    "watch": "rollup -c -w",
+    "build": "rollup -c && tsc --emitDeclarationOnly",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solid",
+    "solid.js",
+    "SSG",
+    "Static Site Generator"
+  ],
+  "author": "wjq990112<1163585385@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "rollup": "^2.76.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}

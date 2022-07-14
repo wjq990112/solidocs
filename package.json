@@ -1,0 +1,21 @@
+{
+  "name": "@solidocs/workspace",
+  "version": "1.0.0",
+  "description": "SSG(Static Site Generator) powered by SolidJS.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solid",
+    "solid.js",
+    "SSG",
+    "Static Site Generator"
+  ],
+  "author": "wjq990112<1163585385@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@applint/spec": "^1.2.3",
+    "@types/node": "^18.0.4",
+    "esno": "^0.16.3"
+  }
+}

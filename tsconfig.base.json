@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "references": [{ "path": "./packages/create/tsconfig.json" }]
+}
